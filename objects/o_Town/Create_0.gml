@@ -6,7 +6,7 @@ selected = 0;
 var i,j,type;
 for(i = 0;i<townWidth;i++){
 	for (j=0;j<townHeight;j++){
-		gd_Map[i,j] = instance_create_depth(x+i*64, y+j*64, 0, o_TownTile);
-		gd_Map[i,j].sprite_index = s_Road1
+		gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 0, o_TownTile);
+		gd_Map[i,j].sprite_index = s_Road_crossover;
 	}
 }
