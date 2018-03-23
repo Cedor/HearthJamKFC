@@ -4,5 +4,5 @@ var d =64;
 var i;
 for( i = 0;i<4;i++)
 {
-	instance_create_depth(x+1,y+d*i,0,o_BtAction);
+	instance_create_depth(x+1,y+d*i,-1,o_BtAction);
 }

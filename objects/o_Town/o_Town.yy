@@ -2,7 +2,7 @@
     "id": "b99f2091-561d-4178-9669-0e5af54a4a7f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Ville",
+    "name": "o_Town",
     "eventList": [
         {
             "id": "47d8be77-9949-4e83-8ed6-e4a425690c62",
@@ -42,9 +42,51 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "o_Case",
+            "value": "0",
             "varName": "gd_Map",
-            "varType": 5
+            "varType": 0
+        },
+        {
+            "id": "ea48a461-151b-4886-9920-2192a694be4a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "50",
+            "varName": "townHeight",
+            "varType": 1
+        },
+        {
+            "id": "0eb6bdfa-11b5-4894-b16c-e0a9feda8962",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "townWidth",
+            "varType": 1
+        },
+        {
+            "id": "4a576ecf-69c0-47e1-80b2-5ec1c21016bb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "selected",
+            "varType": 1
         }
     ],
     "solid": false,
