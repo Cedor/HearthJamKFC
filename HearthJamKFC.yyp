@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "53de80f7-34e3-49a4-8516-6434119c2a07",
+            "Value": {
+                "id": "df7c0f48-9918-48b0-be7e-06565ff5075d",
+                "resourcePath": "sprites\\s_Road1\\s_Road1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56fef6be-2cdf-492e-854f-e5adcfeda6ce",
             "Value": {
                 "id": "dd9c1841-7139-464f-b95c-04fd3d5ac134",

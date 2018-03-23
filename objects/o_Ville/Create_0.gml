@@ -6,8 +6,7 @@ layer_tilemap_create(0,x,y,ts_Ville,6400,3200)
 var i,j,type;
 for(i = 0;i<100;i++){
 	for (j=0;j<50;j++){
-		type=random(5);
-
+		instance_create_depth(x+i*64, y+j*64, 0, o_Case);
 	}
 }
 
