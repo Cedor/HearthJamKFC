@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-
+guys = instance_find(o_Guys_lvl1,0);
+guys.quantity++;

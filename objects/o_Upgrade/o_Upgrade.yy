@@ -1,23 +1,23 @@
 {
-    "id": "82c847fb-ba87-444f-b921-2c61dbfa4590",
+    "id": "736e7a00-41d2-4ad9-a5df-05a6a0c9a2f5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_BtAction",
+    "name": "o_Upgrade",
     "eventList": [
         {
-            "id": "cae79fad-6acf-49c1-b8ad-d2652531819d",
+            "id": "1e51503d-182c-4797-9a8e-0aab3915db4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
-            "m_owner": "82c847fb-ba87-444f-b921-2c61dbfa4590"
+            "m_owner": "736e7a00-41d2-4ad9-a5df-05a6a0c9a2f5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "82c847fb-ba87-444f-b921-2c61dbfa4590",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8aac8ab7-9de9-47a8-bbcd-36c9b3852123",
+    "spriteId": "00b26b9c-420e-4915-a778-ed553e71cf77",
     "visible": true
 }

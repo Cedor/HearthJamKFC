@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "00b26b9c-420e-4915-a778-ed553e71cf77",
+            "Value": {
+                "id": "95ffd59d-a29d-4cac-84fd-002c69773e3b",
+                "resourcePath": "sprites\\s_upgrade\\s_upgrade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "00eda861-8d50-4f41-953f-8d1d00a50e5a",
+            "Value": {
+                "id": "7012c24c-799a-4c0d-be7b-44cc84db0f3b",
+                "resourcePath": "objects\\o_Guys_lvl2\\o_Guys_lvl2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "046373f1-121e-433c-ba0b-f11b64e0a60c",
             "Value": {
                 "id": "480e9bbc-5f14-4f59-9c47-72ce67ef326c",
@@ -114,7 +130,7 @@
             "Key": "38d735b8-89e1-4425-9f7c-a4cde89a0d8e",
             "Value": {
                 "id": "a01bb154-c7aa-4313-af2d-1124e793bcb4",
-                "resourcePath": "objects\\o_Guys\\o_Guys.yy",
+                "resourcePath": "objects\\o_Guys_lvl1\\o_Guys_lvl1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +196,14 @@
                 "id": "391d0d57-e034-47c8-905f-32183992de75",
                 "resourcePath": "views\\6552d215-e73c-47fd-a33e-1293283ff9ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "736e7a00-41d2-4ad9-a5df-05a6a0c9a2f5",
+            "Value": {
+                "id": "cfb80797-d2d4-480c-b9ac-e19225144201",
+                "resourcePath": "objects\\o_Upgrade\\o_Upgrade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -411,6 +435,14 @@
             "Value": {
                 "id": "b6bc93e3-2d43-4dd1-a19a-e4f5bdbff452",
                 "resourcePath": "objects\\o_Ressource\\o_Ressource.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb26a92d-5907-474a-8fbf-bf978984c6f5",
+            "Value": {
+                "id": "ed2d44bc-8479-4b50-9ee9-b2a262bb00b8",
+                "resourcePath": "objects\\o_Guys_lvl3\\o_Guys_lvl3.yy",
                 "resourceType": "GMObject"
             }
         }

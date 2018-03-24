@@ -5,12 +5,12 @@
     "name": "o_Recruit",
     "eventList": [
         {
-            "id": "e0c2f4df-e858-41a0-b3ba-f9ad845d2b39",
+            "id": "70cdeb50-b31c-427b-9621-50f3f2fac3cf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "59e4869e-a746-432f-a751-43b14a631ab0"
         }
