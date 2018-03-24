@@ -65,7 +65,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "rayon",
+            "varName": "danger",
             "varType": 1
         }
     ],

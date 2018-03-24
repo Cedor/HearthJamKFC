@@ -4,9 +4,10 @@
 guys = instance_find(o_Guys_lvl1,0);
 
 if guys.quantity > 0
-	{
-		guys.quantity--;
-		guys = instance_find(o_Guys_lvl2,0);
-		guys.quantity++;
-	}
+{
+	guys.quantity--;
+	guys = instance_find(o_Guys_lvl2,0);
+	guys.quantity++;
+}
+increase_danger();
 end_turn();

@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "c13b2d9e-acd3-4d0a-885c-7e837a26c208",
+            "Value": {
+                "id": "382644dd-3c9b-4ff5-8c50-7a32e35ba055",
+                "resourcePath": "scripts\\increase_danger\\increase_danger.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c299fae5-f91f-4e8d-ac16-d50de96255d2",
             "Value": {
                 "id": "df384814-6d89-4bc9-9726-5acfd5b44d33",
@@ -674,7 +682,8 @@
     "script_order": [
         "7d41bba6-b26c-4f6b-9bd7-97121922ad1e",
         "27590234-93aa-4bcd-8781-ba4c3a8c62c6",
-        "54fcf42b-d23a-4b00-adc5-b88a206373eb"
+        "54fcf42b-d23a-4b00-adc5-b88a206373eb",
+        "c13b2d9e-acd3-4d0a-885c-7e837a26c208"
     ],
     "tutorial": ""
 }
