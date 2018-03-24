@@ -1,28 +1,28 @@
 {
-    "id": "f0782d52-6783-4936-874a-5fb14cda86a8",
+    "id": "f819a46e-d128-4c30-b8eb-687385db5e75",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_TownTile",
+    "name": "o_Ressource",
     "eventList": [
         {
-            "id": "e71d4134-81d0-4903-a8a8-cd4c646983fa",
+            "id": "4c39d3f8-e544-41b1-8214-b863f8d330f5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "f0782d52-6783-4936-874a-5fb14cda86a8"
+            "m_owner": "f819a46e-d128-4c30-b8eb-687385db5e75"
         },
         {
-            "id": "f6785ebf-2282-4e13-91dc-91eb6465efa2",
+            "id": "81f168e5-0e03-491d-95c5-de7a42afdead",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "f0782d52-6783-4936-874a-5fb14cda86a8"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f819a46e-d128-4c30-b8eb-687385db5e75"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "e25d42af-b3f2-4dfe-86ff-5a6cd09a2bb6",
+            "id": "804a606a-db9f-45bf-a87c-f9b84bcb4bd1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
-            "varName": "selected",
-            "varType": 3
+            "value": "0",
+            "varName": "quantity",
+            "varType": 1
         },
         {
-            "id": "a67abd8f-020a-4e55-a8dc-79d6bde74d7c",
+            "id": "9341230d-debe-49dc-9308-1f24865500d4",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,9 +66,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "o_Town",
-            "varName": "town",
-            "varType": 5
+            "value": "",
+            "varName": "display_name",
+            "varType": 2
         }
     ],
     "solid": false,

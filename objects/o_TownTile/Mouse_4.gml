@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-town = instance_find(o_Town, 0);
+var top = get_obj_on_top(mouse_x,mouse_y);
+if (top != self)
+	return;
+//town = instance_find(o_Town, 0);
 if (town.selected == 0)
 {
 	town.selected = 1

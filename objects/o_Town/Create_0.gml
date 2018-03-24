@@ -6,7 +6,8 @@ selected = 0;
 var i,j,type;
 for(i = 0;i<townWidth;i++){
 	for (j=0;j<townHeight;j++){
-		gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 0, o_TownTile);
+		gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TownTile);
+		gd_Map[i,j].town = self;
 		type = irandom(7);
 		switch (type)
 		{
