@@ -69,6 +69,20 @@
             "value": "o_Town",
             "varName": "town",
             "varType": 5
+        },
+        {
+            "id": "53b87a96-1c7a-4f76-8d96-79b48f94d3b4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "type",
+            "varType": 0
         }
     ],
     "solid": false,
