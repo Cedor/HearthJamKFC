@@ -231,6 +231,22 @@
             }
         },
         {
+            "Key": "6ae8e1ef-618e-4637-9603-35940d9f357e",
+            "Value": {
+                "id": "d1a781b6-9a71-4d05-b658-b30b5a7a1464",
+                "resourcePath": "objects\\o_Suspicion\\o_Suspicion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71c728ef-db57-454c-a408-3ce94cead662",
+            "Value": {
+                "id": "eeca63e9-1995-4b7f-9b6e-70fb57e9a86c",
+                "resourcePath": "objects\\o_Satisfaction\\o_Satisfaction.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "736e7a00-41d2-4ad9-a5df-05a6a0c9a2f5",
             "Value": {
                 "id": "cfb80797-d2d4-480c-b9ac-e19225144201",
