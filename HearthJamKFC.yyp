@@ -215,11 +215,27 @@
             }
         },
         {
+            "Key": "5fa4b368-e92c-4fef-a77d-c072ce5302a7",
+            "Value": {
+                "id": "0db11edb-064f-42f5-b34f-231139e85977",
+                "resourcePath": "sprites\\s_Road_deadend_left\\s_Road_deadend_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fb33bb4-39ac-47cb-9d09-cc0c840c4aff",
             "Value": {
                 "id": "945076df-a325-4c81-a0b8-e4125741f58a",
                 "resourcePath": "objects\\o_TileNeutral\\o_TileNeutral.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "646041f6-81c0-4a58-8bba-6bcfc6f5876f",
+            "Value": {
+                "id": "e78a6d6b-0388-4132-991f-2bd33d88bbab",
+                "resourcePath": "sprites\\s_Road_left_top_right\\s_Road_left_top_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -276,6 +292,14 @@
                 "id": "656efb2c-b84f-4424-ac0d-f19c2c3052be",
                 "resourcePath": "scripts\\initialise_globals\\initialise_globals.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8010bdd5-aafd-406d-a082-4aad424ccb8d",
+            "Value": {
+                "id": "153dfae2-7c29-4977-bb91-335e5ae2735b",
+                "resourcePath": "sprites\\s_Road_bottom_top_right\\s_Road_bottom_top_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "a8066b35-87a6-42ba-a9c5-87a9d50c1d77",
+            "Value": {
+                "id": "d7ee9aaa-ec87-43e3-93dc-0fda4f8daada",
+                "resourcePath": "sprites\\s_Road_deadend_right\\s_Road_deadend_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "a0a8668b-260c-4c3e-ab26-674d1a454b7e",
@@ -423,10 +455,26 @@
             }
         },
         {
+            "Key": "c3f3a764-0814-4d9b-aa18-137d55d8b71b",
+            "Value": {
+                "id": "488e4287-6fee-4d37-ae33-ef01f8916f1f",
+                "resourcePath": "sprites\\s_Road_bottom_left_top\\s_Road_bottom_left_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c45feaf3-d510-4709-b352-0a0913147748",
             "Value": {
                 "id": "aead9572-5219-4d8c-b729-58d561f6b4e5",
-                "resourcePath": "sprites\\s_Road_deadend\\s_Road_deadend.yy",
+                "resourcePath": "sprites\\s_Road_deadend_bottom\\s_Road_deadend_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7e68307-e2b1-4334-be41-7d99c416c34d",
+            "Value": {
+                "id": "c1175a82-0649-466c-95ee-db5b87632dd8",
+                "resourcePath": "sprites\\s_Road_deadend_top\\s_Road_deadend_top.yy",
                 "resourceType": "GMSprite"
             }
         },
