@@ -31,7 +31,7 @@ else
 		{
 			voisin = voisin or (town.gd_Map[map_x,map_y-1]).selected;
 		}
-		if (map_x < town.townHeight-1)
+		if (map_y < town.townHeight-1)
 		{
 			voisin = voisin or (town.gd_Map[map_x,map_y+1]).selected;
 		}
