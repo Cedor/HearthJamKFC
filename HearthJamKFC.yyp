@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "c45feaf3-d510-4709-b352-0a0913147748",
+            "Value": {
+                "id": "aead9572-5219-4d8c-b729-58d561f6b4e5",
+                "resourcePath": "sprites\\s_Road_deadend\\s_Road_deadend.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "bee7aebf-bc5f-42a8-b313-af9e83d282c5",
