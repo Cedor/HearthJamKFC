@@ -271,11 +271,27 @@
             }
         },
         {
+            "Key": "9142052f-6ad4-4450-815b-4ecaeb5be099",
+            "Value": {
+                "id": "46b763ab-f80e-4e48-9dc8-01c988c01381",
+                "resourcePath": "sprites\\s_Entrepot\\s_Entrepot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bf3f68d-2604-4da1-8cb2-23b4b0e0e348",
             "Value": {
                 "id": "e77cee89-2872-4e33-b3c4-186eba2e1a21",
                 "resourcePath": "views\\9bf3f68d-2604-4da1-8cb2-23b4b0e0e348.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a22435f0-630e-4ba4-8d4b-71121e4090f3",
+            "Value": {
+                "id": "8c081c0f-6cf3-42e5-894d-b8d5b1d339d6",
+                "resourcePath": "objects\\o_TileWarehouse\\o_TileWarehouse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,11 +327,27 @@
             }
         },
         {
-            "Key": "c00bcaba-c69b-4299-a726-6da36888cca9",
+            "Key": "c0207c43-1b2d-44f1-924b-8915c3bd4781",
             "Value": {
-                "id": "62f75171-5d9d-4446-ac89-ceb388cd3a18",
-                "resourcePath": "sprites\\s_Map\\s_Map.yy",
+                "id": "446012de-5c2b-484d-9376-8f9c9605ca64",
+                "resourcePath": "sprites\\s_Bar\\s_Bar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c04ac481-d19c-47d1-9457-cf5261c77912",
+            "Value": {
+                "id": "a8d2f238-ba48-4912-90ed-e2f3e75a5955",
+                "resourcePath": "objects\\o_TileBar\\o_TileBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c299fae5-f91f-4e8d-ac16-d50de96255d2",
+            "Value": {
+                "id": "df384814-6d89-4bc9-9726-5acfd5b44d33",
+                "resourcePath": "objects\\o_TileRoad\\o_TileRoad.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -372,14 +404,6 @@
                 "id": "0af3ed76-1893-4af4-8392-45e39bfe478f",
                 "resourcePath": "sprites\\s_Road_horizontal\\s_Road_horizontal.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e8b735e5-1a58-4cb6-ae05-d11bba18f175",
-            "Value": {
-                "id": "e5011638-f794-406e-b84a-7d9c0ca2c8e0",
-                "resourcePath": "tilesets\\ts_Ville\\ts_Ville.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
