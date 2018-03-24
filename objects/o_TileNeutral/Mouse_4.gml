@@ -17,5 +17,6 @@ if (o_Build_bar.action == true or o_Build_warehouse.action == true)
 	toto.map_y = self.map_y;
 	town.gd_Map[map_x, map_y] = toto;
 	o_Build_bar.action = false;
+	o_Build_warehouse.action = false;
 	instance_destroy();
 }
