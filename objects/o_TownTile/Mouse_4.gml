@@ -18,11 +18,8 @@ else
 	}
 	else 
 	{
-		var x_t, y_t;
-		x_t = mouse_x/global.SPRITESIZE;
-		y_t= mouse_y/global.SPRITESIZE;
-		if ((town.gd_Map[x_t-1,y_t]).selected or town.gd_Map[x_t+1,y_t].selected
-			or town.gd_Map[x_t,y_t-1].selected or town.gd_Map[x_t,y_t+1].selected)
+		if ((town.gd_Map[map_x-1,map_y]).selected or (town.gd_Map[map_x+1,map_y]).selected
+			or (town.gd_Map[map_x,map_y-1]).selected or (town.gd_Map[map_x,map_y+1]).selected)
 			{
 				selected = true;
 				town.selected = town.selected +1;

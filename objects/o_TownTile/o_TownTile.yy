@@ -93,6 +93,34 @@
             "value": "0",
             "varName": "type",
             "varType": 0
+        },
+        {
+            "id": "587e216a-f8d6-4f9d-9910-0e8b53a7b4e0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "map_x",
+            "varType": 1
+        },
+        {
+            "id": "6fc950da-1602-4d7e-9310-ad10a13520d9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "map_y",
+            "varType": 1
         }
     ],
     "solid": false,
