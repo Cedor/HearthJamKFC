@@ -6,8 +6,8 @@ var nbRessources = 4
 var ressources = array_create(nbRessources);
 ressources[0] = o_Recruit;
 ressources[1] = o_Upgrade;
-ressources[2] = o_BtAction;
-ressources[3] = o_BtAction;
+ressources[2] = o_Build_bar;
+ressources[3] = o_Build_warehouse;
 for (var i = 0 ; i < nbRessources; i++)
 {
 	instance_create_depth(x+1,y+d*i,0,ressources[i]);
