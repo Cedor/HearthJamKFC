@@ -15,8 +15,11 @@ for(i = 0;i<townWidth;i++){
 		case 1:
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileWarehouse);
 			break;
-		default:
+		case 2:
+		case 3: 
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileRoad);
+		default:
+			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileNeutral);
 		}
 		gd_Map[i,j].town = self;
 	}
