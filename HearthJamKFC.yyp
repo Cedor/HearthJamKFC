@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "cc9a1939-1cba-420d-9dd0-745a9f5b4b7f",
+            "Value": {
+                "id": "175e01fa-b0e7-4135-8c97-96d9aac71552",
+                "resourcePath": "datafiles_yy\\basic.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "ce445859-1e2d-4130-bbd7-822780ab5581",
             "Value": {
                 "id": "da6cbb25-2c3f-414b-97bd-c19abd226e83",

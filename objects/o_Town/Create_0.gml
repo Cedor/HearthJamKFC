@@ -3,21 +3,23 @@
 gd_Map = ds_grid_create(townWidth,townHeight);
 selected = 0;
 //layer_tilemap_create(0,x,y,ts_Ville,townWidth*global.SPRITESIZE,townHeight*global.SPRITESIZE)
+var file = file_text_open_read("basic.txt");
+
 var i,j,type;
 for(i = 0;i<townWidth;i++){
+	var mapline  = file_text_read_string(file);
+    file_text_readln(file);
 	for (j=0;j<townHeight;j++){
-		var type = irandom(7);
+		var type = string_char_at(mapline, j);;
 		switch(type)
 		{
-		case 0:
+		case "b":
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileBar);
 			break;
-		case 1:
+		case "w":
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileWarehouse);
 			break;
-		case 2:
-		case 3:
-		case 4:
+		case "r":
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileRoad );
 			break;
 		default:
@@ -28,6 +30,7 @@ for(i = 0;i<townWidth;i++){
 		gd_Map[i,j].map_y = j;
 	}
 }
+file_text_close(file);
 for(i = 0;i<townWidth;i++){
 	for (j=0;j<townHeight;j++){
 		if (gd_Map[i,j].object_index == o_TileRoad)
