@@ -8,6 +8,6 @@ if guys.quantity > 0
 	guys.quantity--;
 	guys = instance_find(o_Guys_lvl2,0);
 	guys.quantity++;
+	increase_danger();
+	end_turn();
 }
-increase_danger();
-end_turn();
