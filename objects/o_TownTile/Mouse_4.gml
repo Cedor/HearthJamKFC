@@ -18,8 +18,24 @@ else
 	}
 	else 
 	{
-		if ((town.gd_Map[map_x-1,map_y]).selected or (town.gd_Map[map_x+1,map_y]).selected
-			or (town.gd_Map[map_x,map_y-1]).selected or (town.gd_Map[map_x,map_y+1]).selected)
+		var voisin = false;
+		if ( map_x > 0 )
+		{
+			voisin = voisin or (town.gd_Map[map_x-1,map_y]).selected;
+		}
+		if (map_x < town.townWidth-1)
+		{
+			voisin = voisin or (town.gd_Map[map_x+1,map_y]).selected;
+		}
+			if ( map_y > 0 )
+		{
+			voisin = voisin or (town.gd_Map[map_x,map_y-1]).selected;
+		}
+		if (map_x < town.townHeight-1)
+		{
+			voisin = voisin or (town.gd_Map[map_x,map_y+1]).selected;
+		}
+		if (voisin)
 			{
 				selected = true;
 				town.selected = town.selected +1;
