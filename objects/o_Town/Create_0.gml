@@ -6,11 +6,12 @@ selected = 0;
 var file = file_text_open_read("basic.txt");
 
 var i,j,type;
-for(i = 0;i<townWidth;i++){
+
+for (j=0;j<townHeight;j++){
 	var mapline  = file_text_read_string(file);
     file_text_readln(file);
-	for (j=0;j<townHeight;j++){
-		var type = string_char_at(mapline, j);;
+	for(i = 0;i<townWidth;i++){
+		var type = string_char_at(mapline, i+1);;
 		switch(type)
 		{
 		case "b":
@@ -46,17 +47,33 @@ for(i = 0;i<townWidth;i++){
 					vl = true;
 				}
 			}
+			else
+			{
+				vl = true;
+			}
 			if (i < townWidth-1)
 			{
 				vr = ( o_TileRoad == gd_Map[i+1,j].object_index);
+			}
+			else
+			{
+				vr = true;
 			}
 				if ( j > 0 )
 			{
 				vt = ( o_TileRoad == gd_Map[i,j-1].object_index);
 			}
+			else
+			{
+				vt = true;
+			}
 			if (j < townHeight-1)
 			{
 				vb = ( o_TileRoad == gd_Map[i,j+1].object_index);
+			}
+			else
+			{
+				vb = true;
 			}
 			
 			
