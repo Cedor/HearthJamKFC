@@ -9,9 +9,6 @@ var type = irandom(1);
 switch(type)
 	{
 		case 0:
-			sprite_index = s_Neutral;
-			break;
-		case 1:
 			sprite_index = s_Building;
 			break;
 		default:
