@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "20e7666b-1e4a-4fb2-a80f-d7c99874492a",
+            "Value": {
+                "id": "744177de-d0b2-49e1-a238-977cecf5365d",
+                "resourcePath": "objects\\o_TilePolice\\o_TilePolice.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22fee5f5-8e66-495a-8c59-9374a30058db",
             "Value": {
                 "id": "3c6b91b7-fd1e-4285-8149-475a1aef3c8a",
@@ -411,6 +419,14 @@
             "Value": {
                 "id": "46b763ab-f80e-4e48-9dc8-01c988c01381",
                 "resourcePath": "sprites\\s_Entrepot\\s_Entrepot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "955bb5f6-d019-4dc8-8046-3d874c387219",
+            "Value": {
+                "id": "9baa851f-a3ab-450b-aeeb-d54e3b7215b6",
+                "resourcePath": "sprites\\s_Police\\s_Police.yy",
                 "resourceType": "GMSprite"
             }
         },

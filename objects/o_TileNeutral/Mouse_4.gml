@@ -19,4 +19,5 @@ if (o_Build_bar.action == true or o_Build_warehouse.action == true)
 	o_Build_bar.action = false;
 	o_Build_warehouse.action = false;
 	instance_destroy();
+	end_turn();
 }

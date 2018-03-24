@@ -6,5 +6,3 @@ else
 	{
 		action = false;
 	}
-// on decleche la fin de tour (c'est le parent qui gère)
-event_inherited();

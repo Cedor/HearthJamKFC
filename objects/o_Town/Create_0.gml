@@ -23,6 +23,9 @@ for (j=0;j<townHeight;j++){
 		case "r":
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileRoad );
 			break;
+		case "p":
+			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TilePolice );
+			break;
 		default:
 			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileNeutral );
 		}

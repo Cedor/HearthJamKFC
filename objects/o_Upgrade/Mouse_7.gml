@@ -9,5 +9,4 @@ if guys.quantity > 0
 		guys = instance_find(o_Guys_lvl2,0);
 		guys.quantity++;
 	}
-// on decleche la fin de tour (c'est le parent qui gère)
-event_inherited();
+end_turn();
