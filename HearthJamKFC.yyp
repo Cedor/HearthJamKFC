@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "54fcf42b-d23a-4b00-adc5-b88a206373eb",
+            "Value": {
+                "id": "72bc7731-0e12-4e52-949a-d57150bb420b",
+                "resourcePath": "scripts\\end_turn\\end_turn.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "56fef6be-2cdf-492e-854f-e5adcfeda6ce",
             "Value": {
                 "id": "dd9c1841-7139-464f-b95c-04fd3d5ac134",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "e94410aa-78f4-44b7-9c2f-27bcfd0fbb19",
+            "Value": {
+                "id": "de995e1a-6962-4668-a277-3304426c68eb",
+                "resourcePath": "objects\\o_GameController\\o_GameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e978198c-b78e-4964-bd00-424a8377b073",
             "Value": {
                 "id": "d36d80ad-c522-4875-8c34-004c7f13bd22",
@@ -641,7 +657,8 @@
     ],
     "script_order": [
         "7d41bba6-b26c-4f6b-9bd7-97121922ad1e",
-        "27590234-93aa-4bcd-8781-ba4c3a8c62c6"
+        "27590234-93aa-4bcd-8781-ba4c3a8c62c6",
+        "54fcf42b-d23a-4b00-adc5-b88a206373eb"
     ],
     "tutorial": ""
 }
