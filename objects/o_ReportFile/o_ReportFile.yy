@@ -98,7 +98,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "display_name",
-            "varType": 0
+            "varType": 2
         },
         {
             "id": "f4c79099-4ed2-470c-ae18-fde05da673c4",
@@ -112,7 +112,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "gain_dollars",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "5a0d00e9-39d5-4afe-a877-2c931695e22f",
@@ -126,7 +126,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "gain_cleanars",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "7df5d6b9-9733-4b37-90c8-9b2f1ce4af51",
@@ -140,7 +140,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "gain_guys1",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "fdc624e5-bcf7-4f5d-972f-47abe3c9c000",
@@ -154,7 +154,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "gain_guys2",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "66d674b4-315e-43c2-8369-2b6b1d7bb01c",
@@ -168,7 +168,21 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "gain_guys3",
-            "varType": 0
+            "varType": 1
+        },
+        {
+            "id": "4dc1896e-457e-4a21-9271-10ba5ce319c8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gain_satisfaction",
+            "varType": 1
         }
     ],
     "solid": false,

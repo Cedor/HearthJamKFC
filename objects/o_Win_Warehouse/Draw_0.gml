@@ -26,5 +26,6 @@ draw_text(colonne3,ligne3, refTile.cigare_dispo);
 draw_text(colonne4,ligne1, string(refTile.biere_prix)+ "$");
 draw_text(colonne4,ligne2, string(refTile.alcool_prix)+ "$");
 draw_text(colonne4,ligne3, string(refTile.cigare_prix)+ "$");
-draw_text(colonne4,ligne4, string(refTile.cigare_prix)+ "$");
+draw_text(colonne4,ligne4, "Total");
+draw_text(colonne4,ligne4 + string_height("Total"), string(acheter.cost_dollars)+ "$");
 draw_set_color(c_black);

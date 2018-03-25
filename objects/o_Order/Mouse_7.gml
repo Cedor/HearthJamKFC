@@ -26,6 +26,15 @@ if (act_ok == true)
 	guys1.quantity -= cost_guys1;
 	guys2.quantity -= cost_guys2;
 	guys3.quantity -= cost_guys3;
-
+	refWin.refTile.biere += refWin.refTile.biere_commande;
+	refWin.refTile.biere_commande = 0;
+	refWin.refTile.alcool += refWin.refTile.alcool_commande;
+	refWin.refTile.alcool_commande = 0;
+	refWin.refTile.cigare += refWin.refTile.cigare_commande;
+	refWin.refTile.cigare_commande = 0;
+	if (instance_exists(refWin))
+	{
+	instance_destroy(refWin);
+	}
 	end_turn();
 }

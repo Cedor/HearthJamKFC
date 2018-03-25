@@ -20,7 +20,7 @@ if (position_meeting(mouse_x, mouse_y, alcool_plus) && refTile.alcool_dispo >0)
 	refTile.alcool_dispo--;
 	dataUpdate = true;
 }
-if (position_meeting(mouse_x, mouse_y,alcool_moins ))
+if (position_meeting(mouse_x, mouse_y,alcool_moins )&& refTile.alcool_commande >0)
 {
 	refTile.alcool_commande--;
 	refTile.alcool_dispo++;

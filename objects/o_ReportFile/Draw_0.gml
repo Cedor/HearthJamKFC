@@ -44,15 +44,23 @@ else
 	}
 	if(gain_guys2 >0)
 	{
-		var tt =
-		text_width  = string_width(gain_guys2);
-		draw_text(x+sprite_width/2-text_width/2,y+jump+d*i,"Guys: " + string(gain_guys2));
+		var tt ="Guys: " + string(gain_guys2);
+		text_width  = string_width(tt);
+		draw_text(x+sprite_width/2-text_width/2,y+jump+d*i,tt);
 		i++
 	}
 	if(gain_guys3 >0)
 	{
-		text_width  = string_width(gain_guys3);
-		draw_text(x+sprite_width/2-text_width/2,y+jump+d*i,"BigGuys: " + string(gain_guys3));
+		var tt = "BigGuys: " + string(gain_guys3);
+		text_width  = string_width(tt);
+		draw_text(x+sprite_width/2-text_width/2,y+jump+d*i,tt);
 		i++
+	}
+	if(gain_satisfaction >0)
+	{
+		var tt = "Satisfaction: " + string(gain_satisfaction);
+		text_width  = string_width(tt);
+		draw_text(x+sprite_width/2-text_width/2,y+jump+d*i,tt);
+		i++;
 	}
 }

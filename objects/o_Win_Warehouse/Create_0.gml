@@ -14,3 +14,4 @@ alcool_plus = instance_create_layer(x+colonne2, y+ligne2, "BoxButton", o_TWPlus)
 cigare_moins = instance_create_layer(x+colonne1, y+ligne3, "BoxButton", o_TWMinus);
 cigare_plus = instance_create_layer(x+colonne2, y+ligne3, "BoxButton", o_TWPlus);
 acheter = instance_create_layer(x+colonne1, y+ligne4, "BoxButton", o_Order);
+acheter.refWin=self;
