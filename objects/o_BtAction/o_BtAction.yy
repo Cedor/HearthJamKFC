@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "o_BtAction",
     "eventList": [
-        
+        {
+            "id": "0ffaa1d2-f780-4d10-9e05-1fe6bb539cb9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "82c847fb-ba87-444f-b921-2c61dbfa4590"
+        },
+        {
+            "id": "1a98ba05-1232-4f10-9a69-f93b54086372",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "82c847fb-ba87-444f-b921-2c61dbfa4590"
+        },
+        {
+            "id": "0dc77b8e-47f4-4476-930b-85e7d7113d46",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "82c847fb-ba87-444f-b921-2c61dbfa4590"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -92,6 +121,20 @@
             "value": "false",
             "varName": "act_ok",
             "varType": 3
+        },
+        {
+            "id": "31f20f0f-154e-4759-9aa6-d31a3fbd8e4f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "tipText",
+            "varType": 2
         }
     ],
     "solid": false,
