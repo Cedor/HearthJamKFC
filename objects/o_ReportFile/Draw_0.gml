@@ -9,9 +9,9 @@ draw_text(x+sprite_width/2-text_width/2, y+jump, display_name);
 
 
 
-//jump += text_height
 if (countdown>0)
 {
+	jump += text_height
 	var tt = "Countdown: " + string(countdown) + " turns";
 	text_width  = string_width(tt);
 

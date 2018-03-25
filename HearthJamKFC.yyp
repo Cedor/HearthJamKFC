@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2b5ddf80-c529-4b1a-bbc3-34e4ea22d08e",
+            "Value": {
+                "id": "862759a6-c593-492b-a9c9-fcfb6b6ca2e4",
+                "resourcePath": "sprites\\s_dirty_money\\s_dirty_money.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bae775b-fd6b-4661-9228-51305fbc14e8",
             "Value": {
                 "id": "2b695b94-b094-49ac-bcca-9f8bea5136a8",
@@ -244,6 +252,14 @@
                 "id": "308a0cae-954c-4537-8340-cc48088792df",
                 "resourcePath": "views\\31c954de-134f-4a45-9bef-26a6323f8614.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34282402-ce7f-4780-bb7b-6c436dd38d2f",
+            "Value": {
+                "id": "7eb74157-5df8-44ed-8c1b-6fc7f6ab5a3b",
+                "resourcePath": "sprites\\logo_kids\\logo_kids.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "6e418243-456f-4af9-ad91-89aac8dd3595",
+            "Value": {
+                "id": "3d60c7b5-e6e8-4ef1-be96-5b81b9e617a1",
+                "resourcePath": "sprites\\logo_cop\\logo_cop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "70af29be-a057-4fec-919e-e36d8b71ced5",
             "Value": {
                 "id": "55be5e78-b7d4-4625-b402-ca5455f1baa3",
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "8cee055b-cb8b-4ae7-954e-5776a133ddeb",
+            "Value": {
+                "id": "5ebf1f8f-08f8-4fb2-aba2-a4d09815d78e",
+                "resourcePath": "sprites\\logo_bartender\\logo_bartender.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f2ce939-5e6a-473a-b773-8ba5e297cd3e",
             "Value": {
                 "id": "daacc3cf-a8cf-4c1d-883b-0687d3e8576e",
@@ -716,6 +748,14 @@
                 "id": "8c081c0f-6cf3-42e5-894d-b8d5b1d339d6",
                 "resourcePath": "objects\\o_TileWarehouse\\o_TileWarehouse.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a34fbeab-d037-4a4b-b5cd-fc0679339aa0",
+            "Value": {
+                "id": "7f22e398-0bb5-4e7e-9864-d8a356fbf7cd",
+                "resourcePath": "sprites\\logo_big_guy\\logo_big_guy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -799,6 +839,14 @@
             }
         },
         {
+            "Key": "be91359c-c23f-4a36-9f32-44c4eb499230",
+            "Value": {
+                "id": "38152170-7a20-4f5f-81f0-17ccd7f06a83",
+                "resourcePath": "sprites\\gangster\\gangster.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0207c43-1b2d-44f1-924b-8915c3bd4781",
             "Value": {
                 "id": "446012de-5c2b-484d-9376-8f9c9605ca64",
@@ -876,6 +924,14 @@
                 "id": "50f64458-5161-40c3-a996-fc16f4cb09e4",
                 "resourcePath": "objects\\o_TileWindow\\o_TileWindow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c61fd016-84d7-43ce-9037-275604f9ddf9",
+            "Value": {
+                "id": "29fe8d1d-255b-4ef5-9a2f-2a1a75ae25c8",
+                "resourcePath": "sprites\\s_clean_money\\s_clean_money.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
