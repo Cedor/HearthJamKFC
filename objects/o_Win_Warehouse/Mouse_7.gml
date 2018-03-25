@@ -1,64 +1,37 @@
 
 // Beers
-if (position_meeting(mouse_x, mouse_y, beer_minus))
+if (position_meeting(mouse_x, mouse_y, biere_plus) && refTile.biere_dispo >0)
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		beer -= 1;
-		parent.beer -= 1;
-	}
-	
+		refTile.biere_commande++;
+		refTile.biere_dispo--;
 }
-
-if (position_meeting(mouse_x, mouse_y, beer_plus))
+if (position_meeting(mouse_x, mouse_y,biere_moins ) && refTile.biere_commande >0)
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		beer += 1;
-		parent.beer += 1;
-	}
-	
+		refTile.biere_commande--;
+		refTile.biere_dispo++;	
 }
 
 // Whiskey
-if (position_meeting(mouse_x, mouse_y, whiskey_minus))
+if (position_meeting(mouse_x, mouse_y, alcool_plus) && refTile.alcool_dispo >0)
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		whiskey -= 1;
-		parent.whiskey -= 1;
-	}
-	
+	refTile.alcool_commande++;
+	refTile.alcool_dispo--;
 }
-
-if (position_meeting(mouse_x, mouse_y, whiskey_plus))
+if (position_meeting(mouse_x, mouse_y,alcool_moins ))
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		whiskey += 1;
-		parent.whiskey += 1;
-	}
-	
+	refTile.alcool_commande--;
+	refTile.alcool_dispo++;
 }
-
 
 // Cigars
-if (position_meeting(mouse_x, mouse_y, cigar_minus))
+if (position_meeting(mouse_x, mouse_y,cigare_plus )&& refTile.cigare_dispo >0)
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		cigar -= 1;
-		parent.cigar -= 1;
-	}
-	
+	refTile.cigare_commande++;
+	refTile.cigare_dispo--;
 }
 
-if (position_meeting(mouse_x, mouse_y, cigar_plus))
+if (position_meeting(mouse_x, mouse_y, cigare_moins) && refTile.cigare_commande >0)
 {
-	if (mouse_check_button_pressed(mb_left))
-	{
-		cigar += 1;
-		parent.cigar += 1;
-	}
-	
+	refTile.cigare_commande--;
+	refTile.cigare_dispo++;
 }
