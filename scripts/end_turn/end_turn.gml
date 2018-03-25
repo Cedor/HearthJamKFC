@@ -15,6 +15,7 @@ for (i = 0; i < instance_number(o_ReportFile); i += 1)
 		report.countdown--;
 	}
 }
-//ici on appELLE LE SCRIPT DE DEGUEULASSE DE GG
+//ici on appELLE LEs SCRIPTs DE DEGUEULASSE DE GG
 randomize_bar();
+randomize_warehouse();
 //fIN DE MON KK
