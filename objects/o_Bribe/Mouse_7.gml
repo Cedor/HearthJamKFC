@@ -25,9 +25,13 @@ if (act_ok == true)
 	guys1.quantity -= cost_guys1;
 	guys2.quantity -= cost_guys2;
 	guys3.quantity -= cost_guys3;
-	/*if (refTile.danger >0)
+	if (refWin.refTile.danger >0)
 	{
-		refTile.danger--;
-	}*/
+		refWin.refTile.danger--;
+	}
+	if (instance_exists(o_Win_Police))
+	{
+	instance_destroy(refWin);
+	}
 	end_turn();
 }
