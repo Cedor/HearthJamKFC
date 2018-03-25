@@ -6,3 +6,12 @@ if (town.selected >0)
 	if (pathError == -1)
 		clear_path();
 }
+var i, report;
+for (i = 0; i < instance_number(o_ReportFile); i += 1)
+{
+	report= instance_find(o_ReportFile,i);
+	if (report.countdown > 0)
+	{
+		report.countdown--;
+	}
+}

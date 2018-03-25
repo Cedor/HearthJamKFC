@@ -16,9 +16,9 @@ for (i = 0; i < instance_number(o_TileBar); i += 1)
 	}
 }
 
-for (i = 0; i < instance_number(o_TileBar); i += 1)
+for (i = 0; i < instance_number(o_TileWarehouse); i += 1)
 {
-	tile= instance_find(o_TileBar,i);
+	tile= instance_find(o_TileWarehouse,i);
 	if (tile.selected)
 	{
 		wareValue++;
