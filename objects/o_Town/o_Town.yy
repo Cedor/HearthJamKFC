@@ -87,6 +87,20 @@
             "value": "0",
             "varName": "selected",
             "varType": 1
+        },
+        {
+            "id": "6ed998a4-00ff-4172-a97d-fe9edfe91e46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "transportPath",
+            "varType": 6
         }
     ],
     "solid": false,

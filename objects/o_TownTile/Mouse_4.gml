@@ -13,31 +13,39 @@ else
 {
 	if (selected)
 	{
-		if(win_available)
+		/*if(win_available)
 		{
 			if(!win_open)
 			{
-				/*
-				s_width = sprite_get_width(s_Box) / 2;
-				s_height = sprite_get_height(s_Box) / 2;
-	*/
 				var inst = instance_create_layer(10, 10, "Box", win_obj);
 				inst.refTile = self;
-
-	/*with (inst)
-	{
-		beer = other.beer;
-		whiskey = other.whiskey;
-		cigar = other.cigar;
-	}*/
-
 			}
 		}
 		else
-		{
-			selected = false;
-			town.selected = town.selected -1;
-		}
+		{*/
+			var voisin = 0;
+			if ( map_x > 0 && (town.gd_Map[map_x-1,map_y]).selected)
+			{
+				voisin++;
+			}
+			if (map_x < town.townWidth-1 && (town.gd_Map[map_x+1,map_y]).selected)
+			{
+				voisin++ ;
+			}
+			if ( map_y > 0 && (town.gd_Map[map_x,map_y-1]).selected)
+			{
+				voisin++ ;
+			}
+			if (map_y < town.townHeight-1 && (town.gd_Map[map_x,map_y+1]).selected)
+			{
+				voisin++ ;
+			}
+			if (voisin <2)
+			{
+				selected = false;
+				town.selected = town.selected -1;
+			}
+		//}
 	}
 	else 
 	{
@@ -59,9 +67,9 @@ else
 			voisin = voisin or (town.gd_Map[map_x,map_y+1]).selected;
 		}
 		if (voisin)
-			{
-				selected = true;
-				town.selected = town.selected +1;
-			}
+		{
+			selected = true;
+			town.selected = town.selected +1;
+		}
 	}
 }

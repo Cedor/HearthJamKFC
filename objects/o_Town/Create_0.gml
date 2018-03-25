@@ -1,8 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+//Initialisation des variables
 gd_Map = ds_grid_create(townWidth,townHeight);
 selected = 0;
-//layer_tilemap_create(0,x,y,ts_Ville,townWidth*global.SPRITESIZE,townHeight*global.SPRITESIZE)
+transportPath = ds_list_create();
+
+
+//Generation de a zone de jeu
 var file = file_text_open_read("basic.txt");
 
 var i,j,type;

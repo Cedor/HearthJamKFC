@@ -1,14 +1,23 @@
 {
-    "id": "e94410aa-78f4-44b7-9c2f-27bcfd0fbb19",
+    "id": "3be844ff-c2ae-47a3-bf6d-3c91c3b62305",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_GameController",
+    "name": "o_PathScore",
     "eventList": [
-        
+        {
+            "id": "b39008f9-4b27-4c8f-ac4e-0c325a9301f9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3be844ff-c2ae-47a3-bf6d-3c91c3b62305"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "f819a46e-d128-4c30-b8eb-687385db5e75",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,22 +31,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "95a9b437-bb44-48bd-9765-7e37821483ba",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "",
-            "varName": "chemin",
-            "varType": 6
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
