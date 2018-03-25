@@ -16,4 +16,8 @@ biere_dispo = irandom(10);
 alcool_dispo = irandom(10);
 cigare_dispo = irandom(10);
 
+biere_commande = 0;
+alcool_commande = 0;
+cigare_commande = 0;
+
 //Pyrate End
