@@ -9,3 +9,4 @@ var ligne3 = 310;
 var ligne4 = 470;
 
 corrompre = instance_create_layer(x+colonne1, y+ligne4, "BoxButton", o_Bribe);
+corrompre.refTile = refTile;

@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_BtAction",
     "eventList": [
-        {
-            "id": "cae79fad-6acf-49c1-b8ad-d2652531819d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "82c847fb-ba87-444f-b921-2c61dbfa4590"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -31,7 +22,78 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "f8aa21fe-2b31-4b2b-932d-2ed3a952ae35",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cost_dollars",
+            "varType": 1
+        },
+        {
+            "id": "20db4f9d-49fa-4a51-9f5b-c96c0fcfb7e2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cost_guys1",
+            "varType": 1
+        },
+        {
+            "id": "ae32d3a1-e51f-465e-a0b5-fb6044f9a2e8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cost_guys2",
+            "varType": 1
+        },
+        {
+            "id": "606f2e78-7520-4228-a027-eea45d66d8a3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cost_guys3",
+            "varType": 1
+        },
+        {
+            "id": "93e96879-0308-4d41-8e14-d0306019453c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "act_ok",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "133bf3cb-8ede-47ac-b07a-600167d46b42",
     "visible": true

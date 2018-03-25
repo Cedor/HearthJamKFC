@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "27e970ba-2932-43af-a39e-578cf7c3b4b7",
+            "Value": {
+                "id": "31725201-b7e4-411c-b680-f7b60d1d6db5",
+                "resourcePath": "objects\\o_ReportGuys\\o_ReportGuys.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28854384-7a7e-4771-a92d-1c147fb2eda2",
             "Value": {
                 "id": "f77b13db-fad3-42d8-b2c6-97bb79865fad",
