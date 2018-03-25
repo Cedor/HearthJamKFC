@@ -15,19 +15,19 @@ for (j=0;j<townHeight;j++){
 		switch(type)
 		{
 		case "b":
-			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileBar);
+			gd_Map[i,j] = instance_create_layer(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, "Instances", o_TileBar);
 			break;
 		case "w":
-			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileWarehouse);
+			gd_Map[i,j] = instance_create_layer(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, "Instances", o_TileWarehouse);
 			break;
 		case "r":
-			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileRoad );
+			gd_Map[i,j] = instance_create_layer(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, "Instances", o_TileRoad );
 			break;
 		case "p":
-			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TilePolice );
+			gd_Map[i,j] = instance_create_layer(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, "Instances", o_TilePolice );
 			break;
 		default:
-			gd_Map[i,j] = instance_create_depth(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, 10, o_TileNeutral );
+			gd_Map[i,j] = instance_create_layer(x+i*global.SPRITESIZE, y+j*global.SPRITESIZE, "Instances", o_TileNeutral );
 		}
 		gd_Map[i,j].town = self;
 		gd_Map[i,j].map_x = i;

@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 win_available = true;
-win_obj = o_TileWindow;
+win_obj = o_Win_Warehouse;
 
 //Pyrate Begin
 

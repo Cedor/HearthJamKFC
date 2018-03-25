@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_Win_Warehouse",
     "eventList": [
-        
+        {
+            "id": "faf5253c-3d89-48b7-a741-c7fdd3bf3769",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "af5be66f-1816-49bb-b5b3-c1eed9729b0a"
+        },
+        {
+            "id": "a35cd23c-9556-4dce-aa3d-3fbd782daf24",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "af5be66f-1816-49bb-b5b3-c1eed9729b0a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "ca27b221-1686-4ed5-8428-b36d65704b1c",
     "visible": true
 }
