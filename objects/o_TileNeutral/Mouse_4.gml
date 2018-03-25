@@ -5,11 +5,11 @@ if (o_Build_bar.action == true or o_Build_warehouse.action == true)
 	var toto;
 	if o_Build_bar.action == true
 	{
-		toto = instance_create_depth(x, y, 0, o_TileBar);
+		toto = instance_create_layer(x, y, "Instances", o_TileBar);
 	}
 	else
 	{
-		toto = instance_create_depth(x, y, 0, o_TileWarehouse);
+		toto = instance_create_layer(x, y, "Instances", o_TileWarehouse);
 	}
 	//OU SUIS JE DANS LE TABLEAU
 	toto.town = self.town;
