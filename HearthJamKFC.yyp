@@ -343,11 +343,27 @@
             }
         },
         {
+            "Key": "4de1d043-b295-4aae-bd98-27df56597c94",
+            "Value": {
+                "id": "8a1b0011-d161-4e7e-9912-78db027b3593",
+                "resourcePath": "sprites\\s_cigare\\s_cigare.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4dfc3364-7c00-45b1-9ddd-b8ab5b9ccb9c",
             "Value": {
                 "id": "8edca182-8577-4028-bbf3-7eafa55bba5b",
                 "resourcePath": "objects\\o_Bribe\\o_Bribe.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4f041371-3875-4179-a37f-647892e2e1d0",
+            "Value": {
+                "id": "549bad2b-1391-43ea-b6eb-51e1cf95caf2",
+                "resourcePath": "sprites\\s_alcool\\s_alcool.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -500,6 +516,14 @@
                 "id": "df7b0ec5-bce8-4586-8bdb-2bd80ace4ec7",
                 "resourcePath": "views\\74d689e8-6f79-42d4-9644-09e9612ca400.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76cd16da-9dcd-4323-b587-d0ac721ab784",
+            "Value": {
+                "id": "048c467c-9c53-43ca-9e96-9dc8ec2e077d",
+                "resourcePath": "sprites\\s_biere\\s_biere.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +692,14 @@
                 "id": "8c081c0f-6cf3-42e5-894d-b8d5b1d339d6",
                 "resourcePath": "objects\\o_TileWarehouse\\o_TileWarehouse.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a56bdda7-4a88-4f11-985c-53c66aca8d3d",
+            "Value": {
+                "id": "40027d80-5346-4f67-aef3-aa815eff3bdc",
+                "resourcePath": "scripts\\randomize_bar\\randomize_bar.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1006,7 +1038,8 @@
         "c13b2d9e-acd3-4d0a-885c-7e837a26c208",
         "415fa076-4570-40e3-a60f-d42772ab9f57",
         "7298fffd-7aa6-4ba4-9f6a-a0be0f1037d3",
-        "60306a49-8e32-4e64-8b73-f859eb5d3914"
+        "60306a49-8e32-4e64-8b73-f859eb5d3914",
+        "a56bdda7-4a88-4f11-985c-53c66aca8d3d"
     ],
     "tutorial": ""
 }
