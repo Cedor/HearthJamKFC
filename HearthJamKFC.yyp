@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "26f2faa1-cbd3-4e35-9e9f-389ce94b0ece",
+            "Value": {
+                "id": "7dbb5346-0b43-4cc0-b56f-40b0396df3ef",
+                "resourcePath": "objects\\o_Clean\\o_Clean.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27590234-93aa-4bcd-8781-ba4c3a8c62c6",
             "Value": {
                 "id": "7fc9dc30-a74f-4305-8509-541dc09922a2",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "5c1a9cb2-f799-4cd7-9d6c-95e022a24a4d",
+            "Value": {
+                "id": "8ab73cd1-5ccf-4d89-a55a-d5fa5e9e968c",
+                "resourcePath": "sprites\\s_Send\\s_Send.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fa4b368-e92c-4fef-a77d-c072ce5302a7",
             "Value": {
                 "id": "0db11edb-064f-42f5-b34f-231139e85977",
@@ -555,6 +571,14 @@
             "Value": {
                 "id": "afe8c5b2-3ee6-4952-b243-b3f284fd27e2",
                 "resourcePath": "sprites\\s_Road_bottom_left_right\\s_Road_bottom_left_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f2ce939-5e6a-473a-b773-8ba5e297cd3e",
+            "Value": {
+                "id": "daacc3cf-a8cf-4c1d-883b-0687d3e8576e",
+                "resourcePath": "sprites\\s_Clean\\s_Clean.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -803,6 +827,14 @@
             "Value": {
                 "id": "c4f324f0-5e46-41e0-902e-7932b1063178",
                 "resourcePath": "views\\d57e6a7e-3d70-4597-82f2-6cf45f4cfda7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d5819935-a527-40e5-b636-b2f137de018c",
+            "Value": {
+                "id": "a27bb43c-c882-4e1a-9e3b-21965badf029",
+                "resourcePath": "views\\d5819935-a527-40e5-b636-b2f137de018c.yy",
                 "resourceType": "GMFolder"
             }
         },
