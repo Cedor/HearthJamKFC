@@ -8,8 +8,12 @@ win_obj = o_Win_Warehouse;
 
 //Pyrate Begin
 
-beer	= irandom(100);
-whiskey	= irandom(100);
-cigar	= irandom(100);
+biere	= 0;
+alcool	= 0;
+cigare	= 0;
+
+biere_dispo = irandom(10);
+alcool_dispo = irandom(10);
+cigare_dispo = irandom(10);
 
 //Pyrate End

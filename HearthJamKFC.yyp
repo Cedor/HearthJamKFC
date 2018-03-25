@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "aa7830d0-f180-44b8-9324-3f912d15c501",
+            "Value": {
+                "id": "4b83b286-b6a9-457a-9713-a718b506017d",
+                "resourcePath": "objects\\o_Win_Bar\\o_Win_Bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac186220-b1cf-451f-bc82-4296786febf6",
             "Value": {
                 "id": "8be39f81-bd7f-48e2-82a5-9dae08506c7e",
