@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2ddf5e34-657e-4fea-9745-dd0a1da46ae2",
+            "Value": {
+                "id": "bda86059-ac45-4598-8265-97c713ebed94",
+                "resourcePath": "sprites\\s_ReportDone\\s_ReportDone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f34695f-f19c-4536-9b2c-f2f392c5dca4",
             "Value": {
                 "id": "c897c85e-5261-486c-a0b7-1ae75f216a5c",
@@ -380,14 +388,6 @@
                 "id": "470da9ca-0424-460e-beb2-b2e0e2cfaaec",
                 "resourcePath": "objects\\o_Recruit\\o_Recruit.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5af1a50f-ee72-4e8a-9cb9-97b7eb0da672",
-            "Value": {
-                "id": "579343ea-92e5-429c-afc8-69b73f72f1f2",
-                "resourcePath": "sprites\\s_ReportDone\\s_ReportDone.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
