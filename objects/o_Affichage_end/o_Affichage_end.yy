@@ -1,18 +1,18 @@
 {
-    "id": "e94410aa-78f4-44b7-9c2f-27bcfd0fbb19",
+    "id": "70af29be-a057-4fec-919e-e36d8b71ced5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_GameController",
+    "name": "o_Affichage_end",
     "eventList": [
         {
-            "id": "b870deaa-c060-497e-974c-8b65dd9f2c39",
+            "id": "59cba168-f4ea-4a41-bb1b-2c0c035d4eff",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e94410aa-78f4-44b7-9c2f-27bcfd0fbb19"
+            "eventtype": 8,
+            "m_owner": "70af29be-a057-4fec-919e-e36d8b71ced5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,23 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "95a9b437-bb44-48bd-9765-7e37821483ba",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "",
-            "varName": "chemin",
-            "varType": 6
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "2bae775b-fd6b-4661-9228-51305fbc14e8",
     "visible": true
 }
