@@ -1,9 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-var colonne1 = 500;
-var colonne2 = 575;
-var ligne1 = 200;
-var ligne2 = 275;
+var colonne1 = 100;
+var colonne2 = 150;
+var colonne3 = 600;
+var colonne4 = 660;
+var colonne5 = 800;
+var colonne6 = 860;
+var ligne1 = 150;
+var ligne2 = 250;
 var ligne3 = 350;
 
 var milieu = 32;
