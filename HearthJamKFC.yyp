@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "29aa4832-ee65-43b4-b25d-aca0c1095604",
-            "Value": {
-                "id": "033ac8a1-6da2-495a-a19c-56ab76417464",
-                "resourcePath": "objects\\o_WinWarehouse\\o_WinWarehouse.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2d287762-dca1-465e-a5dd-23701d2ad3f5",
             "Value": {
                 "id": "3706826f-e7ae-4d46-a6c8-e285babcd9f8",
@@ -271,14 +263,6 @@
             }
         },
         {
-            "Key": "3f151f6b-34c9-4248-860d-19534cff55d5",
-            "Value": {
-                "id": "69829c16-9f58-4e3a-a1d9-0bff75eda2f9",
-                "resourcePath": "objects\\o_Close\\o_Close.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "415fa076-4570-40e3-a60f-d42772ab9f57",
             "Value": {
                 "id": "be16ea49-9609-4cd3-b1d1-494c0e00315f",
@@ -327,14 +311,6 @@
             }
         },
         {
-            "Key": "476daf93-368f-419c-9188-aaa4cc42bf43",
-            "Value": {
-                "id": "d6b0e8ea-26f7-42ed-ae75-901dc94633d4",
-                "resourcePath": "objects\\o_Plus\\o_Plus.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4b1aa4b9-cb24-4d83-865f-ceb9ceed734e",
             "Value": {
                 "id": "b4465a82-10f4-4da8-929e-00852f87f061",
@@ -356,6 +332,14 @@
                 "id": "5e985668-477f-4338-8a51-482dfe2fae64",
                 "resourcePath": "views\\4c79c5fc-040a-4213-aeea-6c4cbbc27781.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4dfc3364-7c00-45b1-9ddd-b8ab5b9ccb9c",
+            "Value": {
+                "id": "8edca182-8577-4028-bbf3-7eafa55bba5b",
+                "resourcePath": "objects\\o_Bribe\\o_Bribe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -459,6 +443,14 @@
             "Value": {
                 "id": "d1a781b6-9a71-4d05-b658-b30b5a7a1464",
                 "resourcePath": "objects\\o_Suspicion\\o_Suspicion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6b9b94e5-0884-40ed-b094-ba1551bbc253",
+            "Value": {
+                "id": "4d914b0c-35fb-490d-af2d-c9fa9ce0f384",
+                "resourcePath": "objects\\o_Order\\o_Order.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -687,6 +679,14 @@
             }
         },
         {
+            "Key": "a999f6eb-7d4a-4219-b6ee-d60f082e7697",
+            "Value": {
+                "id": "01339952-4d96-451e-aa05-f3a1a27aaf6d",
+                "resourcePath": "sprites\\s_Bribe\\s_Bribe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac186220-b1cf-451f-bc82-4296786febf6",
             "Value": {
                 "id": "8be39f81-bd7f-48e2-82a5-9dae08506c7e",
@@ -695,10 +695,18 @@
             }
         },
         {
+            "Key": "acaffe1d-bb58-4a65-81fc-2a8569fc1631",
+            "Value": {
+                "id": "c4635621-19c3-4679-8f68-fb34074ebba9",
+                "resourcePath": "sprites\\s_Order\\s_Order.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af5be66f-1816-49bb-b5b3-c1eed9729b0a",
             "Value": {
                 "id": "b3a6cc98-05ae-4881-b3f4-0c1a0aa19fe8",
-                "resourcePath": "objects\\o_Win_Warehouse\\o_Win_Warehouse.yy",
+                "resourcePath": "objects\\o_Win_Police\\o_Win_Police.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -863,6 +871,14 @@
             }
         },
         {
+            "Key": "d7cf9859-5c59-4924-b3e7-2a89f3eca45f",
+            "Value": {
+                "id": "91347d53-db79-4712-981a-313f095bedc8",
+                "resourcePath": "objects\\o_Win_Warehouse\\o_Win_Warehouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8c97286-7081-4dac-a833-95e8d714d20d",
             "Value": {
                 "id": "0af3ed76-1893-4af4-8392-45e39bfe478f",
@@ -899,14 +915,6 @@
             "Value": {
                 "id": "eabcee2b-fe39-4574-94c7-d4d8dbd3ac81",
                 "resourcePath": "objects\\o_TownTile\\o_TownTile.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f33f76ef-9952-45cf-b7d5-b29346379101",
-            "Value": {
-                "id": "d3e2f75b-66e2-404b-a403-1e759368d255",
-                "resourcePath": "objects\\o_Minus\\o_Minus.yy",
                 "resourceType": "GMObject"
             }
         },

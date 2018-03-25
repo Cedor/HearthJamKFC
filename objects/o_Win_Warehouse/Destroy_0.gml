@@ -9,3 +9,4 @@ instance_destroy(alcool_moins);
 instance_destroy(alcool_plus);
 instance_destroy(cigare_moins);
 instance_destroy(cigare_plus);
+instance_destroy(acheter);

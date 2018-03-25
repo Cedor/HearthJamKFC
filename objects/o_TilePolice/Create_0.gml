@@ -5,4 +5,4 @@ image_xscale = 0.5;
 image_yscale = 0.5;
 
 win_available = true;
-win_obj = o_TileWindow;
+win_obj = o_Win_Police;
