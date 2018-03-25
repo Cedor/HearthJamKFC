@@ -20,4 +20,8 @@ biere_commande = 0;
 alcool_commande = 0;
 cigare_commande = 0;
 
+biere_prix  = 5+irandom(10);
+alcool_prix = 10+irandom(25);
+cigare_prix = 7+irandom(30);
+
 //Pyrate End

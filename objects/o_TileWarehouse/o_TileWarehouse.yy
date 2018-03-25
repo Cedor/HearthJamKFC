@@ -5,16 +5,6 @@
     "name": "o_TileWarehouse",
     "eventList": [
         {
-            "id": "ad54ba85-f982-48af-a137-982bbc7e1be4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "a22435f0-630e-4ba4-8d4b-71121e4090f3"
-        },
-        {
             "id": "2e43258f-bc71-4b5e-8b42-9be5ad5b527c",
             "modelName": "GMEvent",
             "mvc": "1.0",

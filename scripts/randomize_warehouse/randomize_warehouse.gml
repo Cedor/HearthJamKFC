@@ -8,6 +8,9 @@ while toto > 0
 		maj.biere_dispo = irandom(10);
 		maj.alcool_dispo = irandom(10);
 		maj.cigare_dispo = irandom(10);
+		maj.biere_prix  = 5+irandom(10);
+		maj.alcool_prix = 10+irandom(25);
+		maj.cigare_prix = 7+irandom(30);
 	}	
 	toto--;
 }
