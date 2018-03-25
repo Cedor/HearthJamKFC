@@ -2,6 +2,7 @@
 // You can write your code in this editor
 var colonne1 = 300;
 var colonne2 = 730;
+var colonne3 = 970;
 var ligne1 = 220;
 var ligne2 = 320;
 var ligne3 = 420;
@@ -11,8 +12,12 @@ draw_set_color(c_white);
 draw_text(colonne1,ligne1, refTile.biere);
 draw_text(colonne1,ligne2, refTile.alcool);
 draw_text(colonne1,ligne3, refTile.cigare);
+//COMMANDE
+draw_text(colonne2,ligne1, refTile.biere_commande);
+draw_text(colonne2,ligne2, refTile.alcool_commande);
+draw_text(colonne2,ligne3, refTile.cigare_commande);
 //DISPONIBLE A L'ACHAT
-draw_text(colonne2,ligne1, refTile.biere_dispo);
-draw_text(colonne2,ligne2, refTile.alcool_dispo);
-draw_text(colonne2,ligne3, refTile.cigare_dispo);
+draw_text(colonne3,ligne1, refTile.biere_dispo);
+draw_text(colonne3,ligne2, refTile.alcool_dispo);
+draw_text(colonne3,ligne3, refTile.cigare_dispo);
 draw_set_color(c_black);

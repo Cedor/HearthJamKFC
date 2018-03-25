@@ -11,7 +11,7 @@ switch(type)
 		case 0:
 			sprite_index = s_Neutral;
 			break;
-		case 1:
+		/*case 1:
 			sprite_index = s_Factory;
 			
 			// Génération aléatoire du sprite de factory
@@ -24,7 +24,7 @@ switch(type)
 						default:
 							image_index = 0;
 				}
-			break;
+			break;*/
 		default:
 			sprite_index = s_Building;
 			

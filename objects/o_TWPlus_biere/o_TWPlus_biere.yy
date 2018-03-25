@@ -2,7 +2,7 @@
     "id": "9aaaf183-5004-4ce3-a499-f63e8dbc404d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_TWPlus",
+    "name": "o_TWPlus_biere",
     "eventList": [
         {
             "id": "8b40cf87-8503-4603-957d-b89f2a4d6a26",
