@@ -13,7 +13,7 @@ ressources[6] = o_Suspicion;
 ressources[7] = o_PathScore;
 for (var i = 0 ; i < nbRessources; i++)
 {
-	instance_create_depth(x+1+(d+2)*i,y+2,0,ressources[i]);
+	instance_create_layer(x+1+(d+2)*i,y+2,"Menu",ressources[i]);
 }
 
 

@@ -1,14 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 var d = o_ReportFile.sprite_height
-nbRessources = 5
-var ressources = array_create(nbRessources);
-ressources[0] = o_ReportDelivery;
-ressources[1] = o_ReportWhite;
-ressources[2] = o_ReportFile;
-ressources[3] = o_ReportFile;
-ressources[4] = o_ReportFile;
-for (var i = 0 ; i < nbRessources; i++)
-{
-	instance_create_depth(x+1,y+d*i,0,ressources[i]);
-}
+var i =0;
+reports = ds_list_create();
+var report = instance_create_layer(x+1,y+d*i,"Menu",o_ReportDelivery);
+ds_list_add(reports, report);
+i++
+var report = instance_create_layer(x+1,y+d*i,"Menu",o_ReportWhite);
+ds_list_add(reports, report);
+i++
+var report = instance_create_layer(x+1,y+d*i,"Menu",o_ReportFile);
+ds_list_add(reports, report);
+i++
+nbReports = ds_list_size(reports)

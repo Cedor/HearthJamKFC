@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "07d050a7-ff0b-4ed5-a13b-45b0006b75db",
+            "Value": {
+                "id": "8c14fca4-783a-4b3a-a3a2-800b3f7bae67",
+                "resourcePath": "sounds\\snd_loop\\snd_loop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "09d229ae-0fb7-4069-a3c6-4bcf6e719065",
             "Value": {
                 "id": "1a1168aa-7371-4267-99ee-7e95842caa9a",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "61ef3948-5060-4012-b589-e5332dcae490",
                 "resourcePath": "sprites\\s_Road_bottom_to_left\\s_Road_bottom_to_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "133bf3cb-8ede-47ac-b07a-600167d46b42",
+            "Value": {
+                "id": "7696d90f-5da7-42f8-8094-f18122030a29",
+                "resourcePath": "sprites\\s_ActionDefault\\s_ActionDefault.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -303,10 +319,26 @@
             }
         },
         {
+            "Key": "47216ae9-4098-4220-a2af-ca6727637425",
+            "Value": {
+                "id": "ca429d51-6377-4387-b4dc-17e98b4ba040",
+                "resourcePath": "sprites\\s_Wash\\s_Wash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "476daf93-368f-419c-9188-aaa4cc42bf43",
             "Value": {
                 "id": "d6b0e8ea-26f7-42ed-ae75-901dc94633d4",
                 "resourcePath": "objects\\o_Plus\\o_Plus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b1aa4b9-cb24-4d83-865f-ceb9ceed734e",
+            "Value": {
+                "id": "b4465a82-10f4-4da8-929e-00852f87f061",
+                "resourcePath": "objects\\o_Sound\\o_Sound.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -628,14 +660,6 @@
                 "id": "ec6f1085-fb0a-4c9b-bf9c-5b72e0cc155f",
                 "resourcePath": "objects\\o_GoodManagement\\o_GoodManagement.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9dfd1e74-21d7-45ab-a9f9-17a9e479e703",
-            "Value": {
-                "id": "e4c59776-3c84-477f-a6b6-33a8d1ccedac",
-                "resourcePath": "views\\9dfd1e74-21d7-45ab-a9f9-17a9e479e703.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
