@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "45cd6fe5-d33f-4e30-ba33-a4feb6ebb8fb",
+            "Value": {
+                "id": "62f3e816-d3d2-417d-b820-783c68296ec4",
+                "resourcePath": "sprites\\bg_bar\\bg_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47216ae9-4098-4220-a2af-ca6727637425",
             "Value": {
                 "id": "ca429d51-6377-4387-b4dc-17e98b4ba040",
