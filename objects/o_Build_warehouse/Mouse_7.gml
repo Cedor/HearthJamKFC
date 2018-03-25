@@ -1,6 +1,6 @@
 if action = false and o_Build_bar.action = false
 	{
-		action = true;
+		action = true;		
 	}
 else
 	{
