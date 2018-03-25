@@ -1,23 +1,14 @@
 {
-    "id": "c04ac481-d19c-47d1-9457-cf5261c77912",
+    "id": "af5be66f-1816-49bb-b5b3-c1eed9729b0a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_TileBar",
+    "name": "o_Win_Warehouse",
     "eventList": [
-        {
-            "id": "1990de8a-9880-4315-8a57-fc49517ede3a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "c04ac481-d19c-47d1-9457-cf5261c77912"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "f0782d52-6783-4936-874a-5fb14cda86a8",
+    "parentObjectId": "c593172e-233f-4e7d-955b-4346d5bf389a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c0207c43-1b2d-44f1-924b-8915c3bd4781",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

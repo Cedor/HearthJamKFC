@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "af5be66f-1816-49bb-b5b3-c1eed9729b0a",
+            "Value": {
+                "id": "b3a6cc98-05ae-4881-b3f4-0c1a0aa19fe8",
+                "resourcePath": "objects\\o_Win_Warehouse\\o_Win_Warehouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b32f8653-548c-4881-afc8-14074d6655a7",
             "Value": {
                 "id": "a0a35dbd-4c7e-4c8f-b16f-5d020f3c1632",
