@@ -5,6 +5,7 @@
 event_inherited();
 
 //Pyrate Begin
+/*
 if (selected == true)
 {
 	show_debug_message("================================================")
@@ -30,4 +31,5 @@ if (selected == true)
 	}
 
 }
+*/
 //Pyrate End

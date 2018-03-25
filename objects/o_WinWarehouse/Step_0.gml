@@ -16,7 +16,16 @@ if (position_meeting(mouse_x, mouse_y, m_close))
 		instance_destroy(cigar_plus);
 		
 		instance_destroy(m_close);
-		//parent.selected = false;
+		var i, warehouse;
+		for (i = 0; i < instance_number(o_TileWarehouse); i += 1)
+		{
+			warehouse= instance_find(o_TileWarehouse,i);
+			if (warehouse.selected ==true)
+			{
+				warehouse.selected = false;
+				warehouse.town.selected--;
+			}
+		}
 		
 		instance_destroy(self);
 	}

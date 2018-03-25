@@ -121,6 +121,48 @@
             "value": "0",
             "varName": "map_y",
             "varType": 1
+        },
+        {
+            "id": "0664927e-a23d-4e5c-a081-a1c920e13746",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "win_open",
+            "varType": 3
+        },
+        {
+            "id": "23d1f55b-f2a7-4440-9c24-77509520e094",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "win_available",
+            "varType": 3
+        },
+        {
+            "id": "c7bb791a-45da-4e83-a327-878058571671",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "win_obj",
+            "varType": 5
         }
     ],
     "solid": false,

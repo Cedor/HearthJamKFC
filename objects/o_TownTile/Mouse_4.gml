@@ -13,8 +13,31 @@ else
 {
 	if (selected)
 	{
-		selected = false;
-		town.selected = town.selected -1;
+		if(win_available)
+		{
+			if(!win_open)
+			{
+				/*
+				s_width = sprite_get_width(s_Box) / 2;
+				s_height = sprite_get_height(s_Box) / 2;
+	*/
+				var inst = instance_create_layer(10, 10, "Box", win_obj);
+				inst.refTile = self;
+
+	/*with (inst)
+	{
+		beer = other.beer;
+		whiskey = other.whiskey;
+		cigar = other.cigar;
+	}*/
+
+			}
+		}
+		else
+		{
+			selected = false;
+			town.selected = town.selected -1;
+		}
 	}
 	else 
 	{
