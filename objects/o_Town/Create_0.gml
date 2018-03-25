@@ -39,46 +39,67 @@ for(i = 0;i<townWidth;i++){
 	for (j=0;j<townHeight;j++){
 		if (gd_Map[i,j].object_index == o_TileRoad)
 		{
-			var vl = false;
-			var vr = false;
-			var vt = false;
-			var vb = false;
+			var vl = false;var vlo = false;
+			var vr = false;var vro = false;
+			var vt = false;var vto = false;
+			var vb = false;var vbo = false;
+			var nbv=0;
 			if ( i > 0 )
 			{
 				if ( o_TileRoad == gd_Map[i-1,j].object_index )
 				{
 					vl = true;
+					nbv++;
 				}
 			}
 			else
 			{
-				vl = true;
+				vlo = true;
 			}
 			if (i < townWidth-1)
 			{
-				vr = ( o_TileRoad == gd_Map[i+1,j].object_index);
+				if ( o_TileRoad == gd_Map[i+1,j].object_index )
+				{
+					vr = true;
+					nbv++;
+				}
 			}
 			else
 			{
-				vr = true;
+				vro = true;
 			}
-				if ( j > 0 )
+			if ( j > 0 )
 			{
-				vt = ( o_TileRoad == gd_Map[i,j-1].object_index);
+				if ( o_TileRoad == gd_Map[i,j-1].object_index )
+				{
+					vt = true;
+					nbv++;
+				}
 			}
 			else
 			{
-				vt = true;
+				vto = true;
 			}
 			if (j < townHeight-1)
 			{
-				vb = ( o_TileRoad == gd_Map[i,j+1].object_index);
+				if ( o_TileRoad == gd_Map[i,j+1].object_index )
+				{
+					vb = true;
+					nbv++;
+				}
 			}
 			else
 			{
-				vb = true;
+				vbo = true;
 			}
 			
+			if (nbv==1)
+			{
+				vt = vt or vto;
+				vb = vb or vbo;
+				vl = vl or vlo;
+				vr = vr or vro;
+			}
 			
 			if (vr == true && vl == true && vt == true && vb == true)
 			{
